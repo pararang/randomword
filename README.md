@@ -12,5 +12,5 @@
 4. spesifikasi endpoint:
   - GET
   - /words
-  - Response
-    {"words": ["kata1", "kata2"]}
+  - Response: JSON
+      {"words": ["kata1", "kata2"]}
