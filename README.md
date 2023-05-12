@@ -1,9 +1,9 @@
 
 
 
-1. Clone dan buat branch dgn nama masing
+1. Clone dan buat branch dgn nama masing2
 2. Buat folder dgn nama masing2
-3. di dalam folder buat aplikasi/service dengan satu endpoint yang mengemablikan hasil dari service yg ada dibawah
+3. di dalam folder buat aplikasi/service dengan satu endpoint yang mengembalikan hasil dari service yg ada dibawah
   ```shell
   - curl --location 'https://random-indonesian-word.p.rapidapi.com/words/random?limit=5' \
   --header 'X-RapidAPI-Host: random-indonesian-word.p.rapidapi.com' \
@@ -13,4 +13,6 @@
   - GET
   - /words
   - Response: JSON
-      {"words": ["kata1", "kata2"]}
+    ```json
+    {"words": ["kata1", "kata2"]}
+    ```
