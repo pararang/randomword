@@ -4,7 +4,7 @@
 1. Clone dan buat branch dgn nama masing2
 2. Buat folder dgn nama masing2
 3. di dalam folder buat aplikasi/service dengan satu endpoint yang mengembalikan hasil dari service yg ada dibawah
-    - host: https://random-indonesian-word.p.rapidapi.com
+    - host: https://random-indonesian-word.p.rapidapi.com [GET]
     - path: /words/random
     - parameter: 
       - limit[int] (optional)
